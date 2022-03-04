@@ -19,7 +19,7 @@ namespace ProjetAltantik
 
         private void miSecteur_Click(object sender, EventArgs e)
         {
-
+            NiragamiGameArt / ProjetAtlantik
         }
     }
 }
