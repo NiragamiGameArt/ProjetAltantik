@@ -17,9 +17,20 @@ namespace ProjetAltantik
             InitializeComponent();
         }
 
-        private void miSecteur_Click(object sender, EventArgs e)
+        private void miAjouterSecteur_Click(object sender, EventArgs e)
         {
-            NiragamiGameArt / ProjetAtlantik
+            frmAjouterSecteur ajouterSecteur = new frmAjouterSecteur();
+            ajouterSecteur.Show();
+        }
+
+        private void miAjouterPort_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void miAjouterLiaison_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
