@@ -1,6 +1,6 @@
 ﻿namespace ProjetAltantik
 {
-    partial class frmAcceuil
+    partial class frmAccueil
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -31,18 +31,18 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ajouterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miAjouterSecteur = new System.Windows.Forms.ToolStripMenuItem();
-            this.modifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.afficherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aProposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miAjouterPort = new System.Windows.Forms.ToolStripMenuItem();
             this.miAjouterLiaison = new System.Windows.Forms.ToolStripMenuItem();
             this.lesTarifsPourUneLiaisonEtUnePériodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unBateauToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uneTraverséeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unBateauToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lesParamêtresDuSiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afficherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lesTraverséesPourUneLiaisonEtUneDateDonnéeAvecPlacesRestantesParCatégorieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lesDétailsDuneRéservationPourUnClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aProposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,30 +80,6 @@
             this.miAjouterSecteur.Text = "Un secteur";
             this.miAjouterSecteur.Click += new System.EventHandler(this.miAjouterSecteur_Click);
             // 
-            // modifierToolStripMenuItem
-            // 
-            this.modifierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.unBateauToolStripMenuItem1,
-            this.lesParamêtresDuSiteToolStripMenuItem});
-            this.modifierToolStripMenuItem.Name = "modifierToolStripMenuItem";
-            this.modifierToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
-            this.modifierToolStripMenuItem.Text = "Modifier";
-            // 
-            // afficherToolStripMenuItem
-            // 
-            this.afficherToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lesTraverséesPourUneLiaisonEtUneDateDonnéeAvecPlacesRestantesParCatégorieToolStripMenuItem,
-            this.lesDétailsDuneRéservationPourUnClientToolStripMenuItem});
-            this.afficherToolStripMenuItem.Name = "afficherToolStripMenuItem";
-            this.afficherToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
-            this.afficherToolStripMenuItem.Text = "Afficher";
-            // 
-            // aProposToolStripMenuItem
-            // 
-            this.aProposToolStripMenuItem.Name = "aProposToolStripMenuItem";
-            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
-            this.aProposToolStripMenuItem.Text = "A Propos";
-            // 
             // miAjouterPort
             // 
             this.miAjouterPort.Name = "miAjouterPort";
@@ -136,6 +112,15 @@
             this.uneTraverséeToolStripMenuItem.Size = new System.Drawing.Size(361, 26);
             this.uneTraverséeToolStripMenuItem.Text = "Une traversée";
             // 
+            // modifierToolStripMenuItem
+            // 
+            this.modifierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.unBateauToolStripMenuItem1,
+            this.lesParamêtresDuSiteToolStripMenuItem});
+            this.modifierToolStripMenuItem.Name = "modifierToolStripMenuItem";
+            this.modifierToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
+            this.modifierToolStripMenuItem.Text = "Modifier";
+            // 
             // unBateauToolStripMenuItem1
             // 
             this.unBateauToolStripMenuItem1.Name = "unBateauToolStripMenuItem1";
@@ -147,6 +132,15 @@
             this.lesParamêtresDuSiteToolStripMenuItem.Name = "lesParamêtresDuSiteToolStripMenuItem";
             this.lesParamêtresDuSiteToolStripMenuItem.Size = new System.Drawing.Size(240, 26);
             this.lesParamêtresDuSiteToolStripMenuItem.Text = "Les paramêtres du site";
+            // 
+            // afficherToolStripMenuItem
+            // 
+            this.afficherToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lesTraverséesPourUneLiaisonEtUneDateDonnéeAvecPlacesRestantesParCatégorieToolStripMenuItem,
+            this.lesDétailsDuneRéservationPourUnClientToolStripMenuItem});
+            this.afficherToolStripMenuItem.Name = "afficherToolStripMenuItem";
+            this.afficherToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.afficherToolStripMenuItem.Text = "Afficher";
             // 
             // lesTraverséesPourUneLiaisonEtUneDateDonnéeAvecPlacesRestantesParCatégorieToolStripMenuItem
             // 
@@ -162,15 +156,21 @@
             this.lesDétailsDuneRéservationPourUnClientToolStripMenuItem.Size = new System.Drawing.Size(662, 26);
             this.lesDétailsDuneRéservationPourUnClientToolStripMenuItem.Text = "Les détails d\'une réservation pour un client";
             // 
-            // frmAcceuil
+            // aProposToolStripMenuItem
+            // 
+            this.aProposToolStripMenuItem.Name = "aProposToolStripMenuItem";
+            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
+            this.aProposToolStripMenuItem.Text = "A Propos";
+            // 
+            // frmAccueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "frmAcceuil";
-            this.Text = "Atlantik - Acceuil";
+            this.Name = "frmAccueil";
+            this.Text = "Atlantik - Accueil";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

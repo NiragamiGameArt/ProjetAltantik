@@ -16,7 +16,7 @@ namespace ProjetAltantik
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAcceuil());
+            Application.Run(new frmAccueil());
         }
     }
 }

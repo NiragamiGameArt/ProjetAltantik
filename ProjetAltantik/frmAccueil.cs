@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetAltantik
 {
-    public partial class frmAcceuil : Form
+    public partial class frmAccueil : Form
     {
-        public frmAcceuil()
+        public frmAccueil()
         {
             InitializeComponent();
         }
