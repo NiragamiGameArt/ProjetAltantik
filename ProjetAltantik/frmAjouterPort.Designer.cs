@@ -1,6 +1,6 @@
 ﻿namespace ProjetAltantik
 {
-    partial class frmAjouterSecteur
+    partial class frmAjouterPort
     {
         /// <summary>
         /// Required designer variable.
@@ -29,46 +29,46 @@
         private void InitializeComponent()
         {
             this.btnAjouter = new System.Windows.Forms.Button();
-            this.lblNomSecteur = new System.Windows.Forms.Label();
-            this.tbxNomSecteur = new System.Windows.Forms.TextBox();
+            this.lblNomPort = new System.Windows.Forms.Label();
+            this.tbxNomPort = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(150, 64);
+            this.btnAjouter.Location = new System.Drawing.Point(126, 59);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(82, 33);
+            this.btnAjouter.Size = new System.Drawing.Size(83, 31);
             this.btnAjouter.TabIndex = 0;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
             this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
-            // lblNomSecteur
+            // lblNomPort
             // 
-            this.lblNomSecteur.AutoSize = true;
-            this.lblNomSecteur.Location = new System.Drawing.Point(22, 38);
-            this.lblNomSecteur.Name = "lblNomSecteur";
-            this.lblNomSecteur.Size = new System.Drawing.Size(111, 16);
-            this.lblNomSecteur.TabIndex = 1;
-            this.lblNomSecteur.Text = "Nom de secteur : ";
+            this.lblNomPort.AutoSize = true;
+            this.lblNomPort.Location = new System.Drawing.Point(17, 34);
+            this.lblNomPort.Name = "lblNomPort";
+            this.lblNomPort.Size = new System.Drawing.Size(86, 16);
+            this.lblNomPort.TabIndex = 1;
+            this.lblNomPort.Text = "Nom du port :";
             // 
-            // tbxNomSecteur
+            // tbxNomPort
             // 
-            this.tbxNomSecteur.Location = new System.Drawing.Point(150, 35);
-            this.tbxNomSecteur.Name = "tbxNomSecteur";
-            this.tbxNomSecteur.Size = new System.Drawing.Size(126, 22);
-            this.tbxNomSecteur.TabIndex = 2;
+            this.tbxNomPort.Location = new System.Drawing.Point(126, 31);
+            this.tbxNomPort.Name = "tbxNomPort";
+            this.tbxNomPort.Size = new System.Drawing.Size(134, 22);
+            this.tbxNomPort.TabIndex = 2;
             // 
-            // frmAjouterSecteur
+            // frmAjouterPort
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(315, 135);
-            this.Controls.Add(this.tbxNomSecteur);
-            this.Controls.Add(this.lblNomSecteur);
+            this.ClientSize = new System.Drawing.Size(286, 118);
+            this.Controls.Add(this.tbxNomPort);
+            this.Controls.Add(this.lblNomPort);
             this.Controls.Add(this.btnAjouter);
-            this.Name = "frmAjouterSecteur";
-            this.Text = "Ajouter un secteur";
+            this.Name = "frmAjouterPort";
+            this.Text = "Ajouter un port";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,7 +77,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnAjouter;
-        private System.Windows.Forms.Label lblNomSecteur;
-        private System.Windows.Forms.TextBox tbxNomSecteur;
+        private System.Windows.Forms.Label lblNomPort;
+        private System.Windows.Forms.TextBox tbxNomPort;
     }
 }

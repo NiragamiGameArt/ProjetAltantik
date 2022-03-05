@@ -25,12 +25,14 @@ namespace ProjetAltantik
 
         private void miAjouterPort_Click(object sender, EventArgs e)
         {
-
+            frmAjouterPort ajouterPort = new frmAjouterPort();
+            ajouterPort.Show();
         }
 
         private void miAjouterLiaison_Click(object sender, EventArgs e)
         {
-
+            frmAjouterLiaison ajouterLiaison = new frmAjouterLiaison();
+            ajouterLiaison.Show();
         }
     }
 }
